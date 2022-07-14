@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+
+
+#menu > ul > li {
+    /* ブロック要素の表示をインライン要素の様に変更する */
+    display: inline;
+    /* マージン（隣接する要素同士のスペース）のサイズを指定するプロパティ*/
+    margin: 0 16px 0 0;
+    /* パディング：ボーダーとコンテンツの間のスペース */
+    padding: 5px;
+    /* ボーダー */
+    border: 1px solid #666666;
+
+    /* 背景色 */
+    background: linear-gradient(#ffff27, #cdf65ec2);
+}
+
+aside {
+    margin: 0 18px;
+    background-color: rgba(175, 142, 60, 0.953);
+    /* フレックスボックス同士のサイズの割合と最小 */
+    flex:  1 50px;
+    order: 1;
+}
+
+header > h1 {
+      /* ブロック要素の表示をインライン要素の様に変更する */
+      display: inline;
+      /* マージン（隣接する要素同士のスペース）のサイズを指定するプロパティ*/
+      margin-left: 40px;
+      /* パディング：ボーダーとコンテンツの間のスペース */
+      padding: 10px;
+      /* ボーダー */
+      border: 2px solid #010101;
+      /* ボーダーの角を丸める */
+      border-radius: 20px;
+      /* 背景色 */
+      background: linear-gradient(#f0654de8, #ec981a);
+
+     
+}
+
+div {
+    margin: 50px;
+}
+
+aside > ul > li {
+    margin: 10px;
+
+
+}
+
+body {
+    margin-top: 15px;
+}
+
+
+
+
